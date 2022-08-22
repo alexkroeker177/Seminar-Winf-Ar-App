@@ -9,5 +9,3 @@ app.use(express.static("test/"));
 app.listen(PORT, () => {
     console.log("Webserver listening on port " + PORT);
 })
-
-console.log("hello world");
